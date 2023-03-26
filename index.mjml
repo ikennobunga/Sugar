@@ -1,18 +1,119 @@
 <mjml>
   <mj-head>
     <mj-title></mj-title>
+    <mj-font name="Quantico" href="https://fonts.googleapis.com/css2?family=Quantico&display=swap"/>
+    <mj-font name="Great Vibes" href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"/>
     <mj-attributes>
+      <mj-text font-family="Quantico, sans-serif" line-height="22px" color="#151e23" />
+      <mj-class name="heading" font-family="Great Vibes" font-size="48px" line-height="40px" padding="30px" text-transform="capitalize" align="center"/>
+      <mj-button color="#fff" background-color="#354552" font-family="Quantico, sans-serif" font-size="14px" border-radius="3px" inner-padding="10px 25px" vertical-align="middle"/>
       <mj-image padding="0" />
-      <mj-section padding="0" />
+      <mj-section padding="0" background-color="#fff"/>
     </mj-attributes>
+
+    <mj-style>
+      @media (max-width: 480px) {
+        .bakedCheese {
+          padding: 10px 20% !important;
+        }
+        .wine-and-dine-text {
+          font-size: 30px;
+          padding-right: 0;
+        }
+      }
+    </mj-style>
   </mj-head>
 
-  <mj-body>
+  <mj-body background-color="#F4F4F4">
+  <!-- Header -->
     <mj-section>
       <mj-column>
+        <mj-image src="https://i.ibb.co/1vNT8VR/Sugar2.png" alt="logo" width="200px" padding="30px 40px 0"/>
         <mj-text>
-          <p>kenn</p>
+          <p style="text-align: center">Product | Concept | Contact</p>
         </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Hero Image -->
+    <mj-section>
+      <mj-column>
+        <mj-image src="https://i.ibb.co/wJLPhbD/Spice1.png" alt="Spices" />
+      </mj-column>
+    </mj-section>
+    <!-- Heading -->
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="heading">
+          <p> - Our Holidy Recipies - </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Gallery -->
+    <mj-section padding-top="20px">
+      <mj-column>
+        <mj-image src="https://i.ibb.co/0cvm36N/baked-cheese-cheesy-37078.jpg" alt="Baked Chees" padding="0 30px" height="250px"/>
+      </mj-column>
+      <mj-column>
+        <mj-text padding="0 40px" css-class="bakedCheese">
+          <p style="text-transform: uppercase; font-weight: bold">baked cheese</p>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+          <p><u>Read more</u>&gt;</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="30px" direction="rtl">
+      <mj-column>
+        <mj-image src="https://i.ibb.co/4NRPQWY/barbecue-bbq-beef-410648.jpg" alt="Roast Beef" padding="0 30px" height="250px"/>
+      </mj-column>
+      <mj-column>
+        <mj-text padding="0 40px" css-class="bakedCheese">
+          <p style="text-transform: uppercase; font-weight: bold">Barbecue</p>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+          <p><u>Read more</u>&gt;</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="30px">
+      <mj-column>
+        <mj-image src="https://i.ibb.co/pR8jK9g/plate-of-rice-and-cooked-meat-1624487.jpg" alt="Cooked Rice and Chicken" padding="0 30px" height="250px"/>
+      </mj-column>
+      <mj-column>
+        <mj-text padding="0 40px" css-class="bakedCheese">
+          <p style="text-transform: uppercase; font-weight: bold">biriani</p>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+          <p><u>Read more</u>&gt;</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Button -->
+    <mj-section padding="30px">
+      <mj-column>
+        <mj-button>
+          Discover assorted Wines
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- Wine and Dine -->
+    <mj-hero padding-top="30px" background-url="https://i.ibb.co/85cTjsQ/quentin-dr-178096-unsplash.jpg" height="300px">
+      <mj-text color="#fff" padding-top="40px" font-size="40px" text-transform="capitalize" line-height="46px" font-family="Great Vibes">
+        <p class="wine-and-dine-text">wine and dine <br> with our <br> finest aged wine.</p>
+      </mj-text>
+    </mj-hero>
+    <!-- Footer -->
+    <mj-section padding-top="50px">
+      <mj-column>
+        <mj-image src="https://i.ibb.co/1vNT8VR/Sugar2.png" alt="Logo" width="110px" padding="0 40px"/>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-social align="center" padding-bottom="80px">
+          <mj-social-element name="facebook"></mj-social-element>
+          <mj-social-element name="twitter"></mj-social-element>
+          <mj-social-element name="pinterest"></mj-social-element>
+        </mj-social>
       </mj-column>
     </mj-section>
   </mj-body>
